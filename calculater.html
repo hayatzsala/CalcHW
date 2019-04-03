@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculater</title>
+	<style type="text/css">
+		div{
+			margin: 10px auto;
+			padding: 20px;
+			background-color:#ffe6ff;
+			width: 50%;
+		}
+		h2{
+			color: blue;
+			}
+		input{
+			width: 45px;
+			height: 40px;
+			font-size: 18px;
+			text-decoration-color: black;
+
+		}
+	   .operation input{
+			font-size: 22px;
+		}
+
+	</style>
+	 <!--  <script type="text/javascript" src="runMVC.js">
+	  	var myview = new view();
+        var mycontroller = new controller(myview);
+        mycontroller.init();
+       
+	  </script>> -->
+
+</head>
+<body>
+<div class="container">
+	<div class="heading"><h2>Basic Calculater</h2></div>
+	<div class="data">
+		
+	<input type="text" id="xValue" class="xValue"><b> Op <b>
+	<input type="text" id="yValue" class="yValue"><b> = </b>
+	<input type="text" id="result" class="result">
+	<br/>
+	</div>
+	<div class="operation">
+		<input type="button" id="mult" class="mult" value="*">
+		<input type="button" id="divi" class="divi" value="/">
+		<input type="button" id="add" class="add" value="+" >
+		<input type="button" id="sub" class="sub" value="-">
+		<input type="button" id="clear" class="clear" value="C">
+		<br/>
+	</div>
+	<div class="numbers" >
+		<input type="button" id="zero" class="zero" value="0" >
+		<input type="button" id="one" class="one" value="1">
+		<input type="button" id="two" class="two" value="2">
+		<input type="button" id="three" class="three" value="3">
+		<input type="button" id="four" class="four" value="4"><br/><br/>
+		<input type="button" id="five" class="five" value="5">
+		<input type="button" id="six" class="six" value="6">
+		<input type="button" id="seven" class="seven" value="7">
+		<input type="button" id="eight" class="eight" value="8">
+		<input type="button" id="nine" class="nine" value="9">
+
+	</div>
+</div>
+<script type="text/javascript" src="runMVC.js">
+       
+    </script>
+ 
+   
+</body>
+</html>
